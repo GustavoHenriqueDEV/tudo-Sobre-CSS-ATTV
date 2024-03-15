@@ -1,0 +1,83 @@
+body {
+  font: 12px Verdana, Arial, Helvetica, sans-serif;
+  color: #333;
+  margin: 20px 30px;
+  background-image: url('../imagens/bgtile-css.jpg');
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #4CAF50;
+  text-align: center;
+}
+
+.byline {
+  color: #777;
+  text-align: center;
+}
+
+.figure {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+blockquote {
+  background-color: #fff;
+  border-left: 3px solid #4CAF50;
+  border-right: 3px solid #4CAF50;
+  border-top: 3px solid #4CAF50;
+  margin: 0;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+blockquote :hover{
+  background-color: #c3c3c3;
+}
+
+#toc h2 {
+  margin-top: 0;
+  color: #fff;
+}
+blockquote p {
+  margin-bottom: 10px;
+}
+
+blockquote cite {
+  font-style: italic;
+}
+
+#toc {
+  background: linear-gradient(135deg, #4caf4fde, #388e3c57);
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+#toc :hover{
+  background-color: #3333333d;
+}
+
+
+ol {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+h2 {
+  color: #4CAF50;
+}
+
+h3 {
+  color: #4CAF50;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
